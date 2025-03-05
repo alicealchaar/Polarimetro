@@ -45,7 +45,7 @@ plt.show()
 # Variável para armazenar o objeto do vetor
 quiver_obj = None 
 
-janela_aberta = True
+global janela_aberta = True
 def fechar_figura(event):
     global janela_aberta
     janela_aberta = False  # Define a variável como False quando a janela for fechada
